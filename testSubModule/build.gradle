@@ -1,5 +1,5 @@
 release {
-    tagPrefix = 'voltdb_impression_v'
+    tagPrefix = 'release_v'
 }
 
 mainClassName = "com.mattbrown.HelloWorld"
