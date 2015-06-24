@@ -1,5 +1,5 @@
 release {
-    tagPrefix = 'releaseminor_v'
+    tagPrefix = 'releasemajor_v'
 }
 
 mainClassName = "com.mattbrown.HelloWorld"
