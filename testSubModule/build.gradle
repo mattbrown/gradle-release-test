@@ -1,5 +1,13 @@
+plugins {
+    //https://github.com/netzwerg/gradle-release-plugin
+    id 'ch.netzwerg.release' version '1.1.0'
+}
 release {
+    dependsOn distZip
+    push = true
     tagPrefix = 'releasemajor_v'
 }
+
+apply plugin: 'ch.netzwerg.release'
 
 mainClassName = "com.mattbrown.HelloWorld"
